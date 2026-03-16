@@ -4,7 +4,16 @@ body {
   padding: 20px;
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-color: #fafafa;
+
+  /* Diagonal blue + white stripes */
+  background: repeating-linear-gradient(
+    45deg,
+    #ffffff,
+    #ffffff 20px,
+    #1e90ff 20px,
+    #1e90ff 40px
+  );
+
   color: #333;
   max-width: 900px;
   margin: 0 auto;
@@ -84,8 +93,4 @@ img {
 
 /* Footer */
 footer {
-  text-align: center;
-  margin-top: 40px;
-  padding: 20px;
-  color: #666;
-}
+  text
