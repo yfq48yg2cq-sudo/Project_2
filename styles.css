@@ -48,4 +48,75 @@ img {
   display: block;
   margin-top: 10px;
 }
+/* Page background and layout */
+body {
+  background-color: #fafafa;
+  color: #333;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header alignment */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Navigation spacing and hover effect */
+nav ul {
+  display: flex;
+  gap: 30px;
+}
+
+nav a {
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #e0e0e0;
+}
+
+/* Section styling */
+section {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 6px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-top: 20px;
+  color: #444;
+}
+
+/* Paragraph spacing */
+p {
+  margin-bottom: 15px;
+}
+
+/* Lists */
+ul, ol {
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+  color: #666;
+}
+
 
