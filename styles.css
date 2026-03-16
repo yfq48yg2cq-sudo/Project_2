@@ -94,4 +94,84 @@ img {
 
 /* Footer */
 footer {
-  text
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+  color: #666;
+}
+
+/* ============================
+   PAGE-SPECIFIC STYLES
+   ============================ */
+
+/* ---------- Homepage (index.html) ---------- */
+.home-title {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.home-intro {
+  font-style: italic;
+}
+
+.home-image {
+  border-radius: 10px;
+}
+
+.home-section {
+  border: 2px solid #1e90ff;
+}
+
+.home-highlight {
+  background-color: #fff8cc;
+}
+
+/* ---------- Resume Page (resume.html) ---------- */
+.resume-header {
+  text-align: center;
+  font-size: 2.2rem;
+}
+
+#education {
+  border-left: 4px solid #1e90ff;
+  padding-left: 1rem;
+}
+
+#certifications {
+  background-color: #fffce6;
+  padding: 1rem;
+}
+
+.resume-list li {
+  margin-bottom: 0.5rem;
+}
+
+.resume-contact {
+  font-weight: bold;
+}
+
+/* ---------- Video Page (page3.html) ---------- */
+.video-wrapper {
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.video-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.video-frame {
+  border: 4px solid #1e90ff;
+  border-radius: 10px;
+}
+
+.video-description {
+  font-style: italic;
+}
+
+.video-section {
+  background-color: #fffce6;
+  padding: 1rem;
+}
+
